@@ -1,0 +1,24 @@
+<!-- Available Burgers partial -->
+			<div class="col-xs-6 text-center" class="task">
+				<div class="panel panel-default">
+					<div class="panel-heading" style="font-weight: 900; font-size: 1.5em;">Available Burgers</div>
+					<div class="panel-body">
+						{{#each burger_data}}
+							{{#unless this.devoured}}
+								<div class="row">
+									<div class="col-xs-9 text-left" style="font-weight: bold;">
+										<pre style="font-size: 1.25em;"> {{this.id}}. {{this.burger_name}}</pre>
+									</div>
+									<div class="col-xs-3 text-center">
+										<form method="POST" action="burger/{{id}}" class="button-size" style="line-height: 0px;">
+											<input type="hidden" name="burger_id" type="text" value={{this.id}}>
+											<br>
+											<button type="sumbit" class="btn btn-default btn-success">Devour It!</button>
+										</form>
+									</div>
+								</div>
+							{{/unless}}
+						{{/each}}
+					</div>
+				</div>
+			</div>

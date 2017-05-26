@@ -1,0 +1,30 @@
+{
+    "name": "burger",
+    "version": "1.0.0",
+    "description": "Using sequelize for the last homework assignment. Burger 2: The Sequel Burger eating app that performs the CRUD operations via ORM Sequelize. App is deployed on Heroku with JawsDB mySQL add-on.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+
+    "author": "Daniel",
+    "license": "ISC",
+
+
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "express": "^4.15.3",
+        "express-handlebars": "^3.0.0",
+        "method-override": "^2.3.9",
+        "mysql": "^2.13.0",
+        "sequelize": "^3.30.4",
+        "sequelize-cli": "^2.7.0"
+    },
+    "devDependencies": {},
+    "keywords": [
+        "HW15",
+        "Sequelize",
+        "burger"
+    ]
+}

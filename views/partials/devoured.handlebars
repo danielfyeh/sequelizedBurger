@@ -1,0 +1,13 @@
+<!-- Devoured Burgers Partial -->
+			<div class="col-xs-6 text-center" class="task">
+				<div class="panel panel-default">
+					<div class="panel-heading" style="font-weight: 900; font-size: 1.5em;">Devoured Burgers</div>
+					<div class="panel-body">
+						{{#each burger_data}}
+							{{#if this.devoured}}
+								<input class="form-control" type="text" placeholder="{{this.id}}. {{this.burger_name}}" readonly>
+							{{/if}}
+						{{/each}}
+					</div>
+				</div>
+			</div>
