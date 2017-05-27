@@ -1,10 +1,10 @@
-# HW-15-Sequelize
+# Homework 15 sequelize Burger
 Using Sequelize to make burger eating application. CRUD operations via sequelize
 
 ## Live Link
+https://immense-plateau-83316.herokuapp.com/
 
-
-## Description on how to use the app
+## Description 
 User First adds burgers to be eaten
 APP displays all added burgers
 If burger is devoured it is logged and displayed 
